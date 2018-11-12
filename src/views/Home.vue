@@ -1,18 +1,28 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="about">
+    <img src="../assets/banner.jpg" alt="">
+    <sound-cloud></sound-cloud>
+    <carousel-container></carousel-container>
+    <social-links></social-links>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+    import SoundCloud from '@/components/SoundCloud';
+    import SocialLinks from '@/components/SocialLinks';
+    import CarouselContainer from '@/components/CarouselContainer';
 
-export default {
-  name: 'home',
-  components: {
-    HelloWorld
-  }
-}
+    export default {
+        components: {
+            SoundCloud,
+            SocialLinks,
+            CarouselContainer
+        }
+    };
+
 </script>
+
+<style lang="stylus" scoped>
+  img
+    width 100%
+</style>
