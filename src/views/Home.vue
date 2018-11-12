@@ -1,6 +1,6 @@
 <template>
   <div id="home">
-    <img :src="sideview" alt="Chris and Austin">
+    <img :src="hanginfromtherafterspodcast" alt="Chris and Austin">
 
     <sound-cloud></sound-cloud>
 
@@ -15,7 +15,7 @@
     import SocialLinks from '@/components/SocialLinks';
 
     import sideview from '@/assets/sideview.jpg'
-    import bryce1 from '@/assets/bryce1.jpg'
+    import hanginfromtherafterspodcast from '@/assets/hanginfromtherafterspodcast.jpg'
 
     export default {
         components: {
@@ -25,7 +25,7 @@
         data(){
             return {
                 sideview,
-                bryce1
+                hanginfromtherafterspodcast
             }
         }
     };
