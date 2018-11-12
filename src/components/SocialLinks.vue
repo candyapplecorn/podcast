@@ -1,5 +1,15 @@
 <template>
     <div>
+        <div class="padding"></div>
+
+        <h1>
+            Want to hang from the rafters too?
+        </h1>
+
+        <h3>
+            Contact us via our social media below:
+        </h3>
+
         <social-button
                 :href="link"
                 :title="service"
@@ -7,17 +17,17 @@
                 :key="service"
         >
         </social-button>
+
+        <div class="padding"></div>
     </div>
 </template>
 
 <script>
-    import TwitterButton from '@/components/UI/TwitterButton';
     import SocialButton from '@/components/UI/SocialButton';
 
     export default {
         name: "SocialLinks",
         components: {
-            TwitterButton,
             SocialButton
         },
         data() {
@@ -36,6 +46,15 @@
     }
 </script>
 
-<style scoped>
+<style lang="stylus" scoped>
+    h1, h3
+        font-family 'Metal Mania', cursive
+        user-select none
+
+    .padding
+        padding 30px 0px
+
+    img
+        width 100%
 
 </style>

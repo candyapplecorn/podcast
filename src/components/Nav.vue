@@ -2,35 +2,33 @@
     <div id="nav">
         <!--<router-link to="/">Home</router-link> |-->
         <!--<router-link to="/about">About</router-link>-->
-        <p>
+        <h4>
             Hanging from the Rafters
-        </p>
+        </h4>
     </div>
 </template>
 
 <script>
-    import banner from '@/assets/banner.jpg';
-
     export default {
-        name: "Nav",
-        components: {
-            banner
-        }
+        name: "Nav"
     }
 </script>
 
 <style lang="stylus" scoped>
 
 #nav
-    /*background url(../assets/hanginfromtherafterspodcast.jpg)*/
     font-family 'Metal Mania', cursive;
-    p
+
+    p, h1, h2, h3, h4, h5, h6
         background black
         width 100%
         margin 0
+        user-select none
+
+        @media(min-width 600px)
+            font-size 2em
 
 
-    padding 5px 0px 15px
     a
         font-weight bold
         color #2c3e50

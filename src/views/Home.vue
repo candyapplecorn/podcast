@@ -1,22 +1,32 @@
 <template>
-  <div id="about">
-    <img src="../assets/banner.jpg" alt="">
+  <div id="home">
+    <img :src="sideview" alt="Chris and Austin">
+
     <sound-cloud></sound-cloud>
-    <carousel-container></carousel-container>
+
     <social-links></social-links>
+
+    <img :src="bryce1" alt="Bryce and Fabbio">
   </div>
 </template>
 
 <script>
     import SoundCloud from '@/components/SoundCloud';
     import SocialLinks from '@/components/SocialLinks';
-    import CarouselContainer from '@/components/CarouselContainer';
+
+    import sideview from '@/assets/sideview.jpg'
+    import bryce1 from '@/assets/bryce1.jpg'
 
     export default {
         components: {
             SoundCloud,
-            SocialLinks,
-            CarouselContainer
+            SocialLinks
+        },
+        data(){
+            return {
+                sideview,
+                bryce1
+            }
         }
     };
 

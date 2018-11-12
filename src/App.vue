@@ -18,6 +18,12 @@
 
     body
         background black
+        display flex
+        justify-content center
+        flex-direction column
+        align-items center
+
+
     #app
         font-family 'Avenir', Helvetica, Arial, sans-serif
         -webkit-font-smoothing antialiased
@@ -25,10 +31,11 @@
         text-align center
         color white
         font-size 1.5em
+        max-width 600px
 
 
     #nav
-        padding 30px
+        padding 30px 0px
         a
             font-weight bold
             color #2c3e50
