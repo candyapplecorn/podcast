@@ -7,7 +7,7 @@
         </h1>
 
         <h3>
-            Contact us via our social media below:
+            Contact us via our social media:
         </h3>
 
         <social-button
