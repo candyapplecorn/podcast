@@ -1,31 +1,34 @@
 <template>
   <div id="home">
-    <img :src="hanginfromtherafterspodcast" alt="Chris and Austin">
+    <hero></hero>
 
     <sound-cloud></sound-cloud>
 
     <social-links></social-links>
 
-    <img :src="bryce1" alt="Bryce and Fabbio">
+    <img :src="alloncouch" alt="Bryce and Fabbio">
+    <img :src="austinoncouch" alt="Bryce and Fabbio">
   </div>
 </template>
 
 <script>
     import SoundCloud from '@/components/SoundCloud';
     import SocialLinks from '@/components/SocialLinks';
+    import Hero from '@/components/hero';
 
-    import sideview from '@/assets/sideview.jpg'
-    import hanginfromtherafterspodcast from '@/assets/hanginfromtherafterspodcast.jpg'
+    import alloncouch from '@/assets/alloncouch.jpg';
+    import austinoncouch from '@/assets/austinoncouch.jpg'
 
     export default {
         components: {
             SoundCloud,
-            SocialLinks
+            SocialLinks,
+            Hero
         },
         data(){
             return {
-                sideview,
-                hanginfromtherafterspodcast
+                alloncouch,
+                austinoncouch
             }
         }
     };
@@ -35,4 +38,6 @@
 <style lang="stylus" scoped>
   img
     width 100%
+
+
 </style>

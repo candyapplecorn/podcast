@@ -3,7 +3,7 @@
         <div class="padding"></div>
 
         <h1>
-            Want to hang from the rafters too?
+            <!--Want to hang from the rafters too?-->
         </h1>
 
         <h3>

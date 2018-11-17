@@ -3,7 +3,7 @@
         <!--<router-link to="/">Home</router-link> |-->
         <!--<router-link to="/about">About</router-link>-->
         <h4>
-            Hanging from the Rafters
+            <!--Hanging from the Rafters-->
         </h4>
     </div>
 </template>
