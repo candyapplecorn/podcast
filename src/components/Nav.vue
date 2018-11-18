@@ -1,13 +1,13 @@
 <template>
     <div id="nav">
         <div
-                v-show="$route.name === 'interviews'"
+                v-show="['interviews', 'interviews-submitted'].includes($route.name)"
                 id="back-link"
         >
             <router-link
                     to="/"
             >
-                back
+                {{getCopy}}
             </router-link>
         </div>
     </div>
@@ -15,7 +15,17 @@
 
 <script>
     export default {
-        name: "Nav"
+        name: "Nav",
+        computed: {
+            getCopy() {
+                switch(this.$route.name) {
+                    case 'interviews-submitted':
+                        return 'Home';
+                    default:
+                        return 'Back'
+                }
+            }
+        }
     }
 </script>
 
