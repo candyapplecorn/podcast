@@ -34,6 +34,11 @@
         max-width 600px
         width 100%
 
+    br
+        display block
+        @media (min-width 600px)
+            display none
+
 
     #nav
         padding 30px 0px

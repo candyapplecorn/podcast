@@ -15,12 +15,7 @@
 
 <script>
     export default {
-        name: "Nav",
-        mounted() {
-            debugger;
-            console.log(this.$route.name)
-            debugger;
-        }
+        name: "Nav"
     }
 </script>
 
@@ -36,16 +31,6 @@
 
 #nav
     font-family 'Metal Mania', cursive;
-
-    p, h1, h2, h3, h4, h5, h6
-        background black
-        width 100%
-        margin 0
-        user-select none
-
-        @media(min-width 600px)
-            font-size 2em
-
 
     a
         font-weight bold
