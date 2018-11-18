@@ -32,6 +32,7 @@
         color white
         font-size 1.5em
         max-width 600px
+        width 100%
 
 
     #nav

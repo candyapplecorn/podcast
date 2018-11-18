@@ -1,14 +1,13 @@
 <template>
     <div>
-        <div class="padding"></div>
-
-        <h1>
-            <!--Want to hang from the rafters too?-->
-        </h1>
-
-        <h3>
-            Contact us via our social media:
-        </h3>
+        <div id="interview">
+            <router-link to="you-sing-and-you-sing-good">
+                Want <br>
+                to be <br>
+                on our <br>
+                podcast?
+            </router-link>
+        </div>
 
         <social-button
                 :href="link"
@@ -47,9 +46,14 @@
 </script>
 
 <style lang="stylus" scoped>
-    h1, h3
+    @import url('https://fonts.googleapis.com/css?family=Metal+Mania')
+
+    #interview
+        padding 90px 0 80px 0
+        font-size 2em
         font-family 'Metal Mania', cursive
-        user-select none
+        -webkit-font-smoothing antialiased
+        -moz-osx-font-smoothing grayscale
 
     .padding
         padding 30px 0px
@@ -57,4 +61,8 @@
     img
         width 100%
 
+    br
+        display block
+        @media (min-width 600px)
+            display none
 </style>

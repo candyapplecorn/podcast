@@ -26,4 +26,5 @@
 
     img.hero
         padding 0 0 0 8px
+        width 100%
 </style>

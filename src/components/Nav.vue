@@ -1,20 +1,38 @@
 <template>
     <div id="nav">
-        <!--<router-link to="/">Home</router-link> |-->
-        <!--<router-link to="/about">About</router-link>-->
-        <h4>
-            <!--Hanging from the Rafters-->
-        </h4>
+        <div
+                v-show="$route.name === 'interviews'"
+                id="back-link"
+        >
+            <router-link
+                    to="/"
+            >
+                back
+            </router-link>
+        </div>
     </div>
 </template>
 
 <script>
     export default {
-        name: "Nav"
+        name: "Nav",
+        mounted() {
+            debugger;
+            console.log(this.$route.name)
+            debugger;
+        }
     }
 </script>
 
 <style lang="stylus" scoped>
+#back-link
+    width 100%
+    display flex
+    justify-content flex-start
+
+    a
+        font-size 2em
+
 
 #nav
     font-family 'Metal Mania', cursive;
