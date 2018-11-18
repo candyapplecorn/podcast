@@ -1,13 +1,15 @@
 <template>
     <div class="text-input">
         <label :for="toKebabCase()">{{label}}:</label>
-        <input
-                :class="{ 'padding-bottom': fields > 1 && f !== fields }"
-                :name="toKebabCase(f)"
-                v-for="f in fields"
-                :key="f"
-                type="text"
-        />
+        <slot>
+            <input
+                    :class="{ 'padding-bottom': fields > 1 && f !== fields }"
+                    :name="toKebabCase(f)"
+                    v-for="f in fields"
+                    :key="f"
+                    type="text"
+            />
+        </slot>
     </div>
 </template>
 
@@ -22,6 +24,10 @@
             fields: {
                 type: Number,
                 default: 1
+            },
+            _replyto: {
+                type: String,
+                default: ''
             }
         },
         methods: {
