@@ -61,7 +61,7 @@
         },
         methods: {
             getHomeUrl() {
-                return window.location.origin;
+                return `${window.location.origin}/#/interviews-submitted`;
             }
         },
         mounted() {
