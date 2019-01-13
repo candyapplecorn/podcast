@@ -38,7 +38,8 @@
                     twitter: 'https://twitter.com/HangingRafters',
                     instagram: 'https://www.instagram.com/hangingfromtherafterspodcast/',
                     facebook: 'https://www.facebook.com/hangingfromtherafterspodcast/',
-                    soundcloud: 'https://soundcloud.com/hangingfromtherafterspodcast'
+                    soundcloud: 'https://soundcloud.com/hangingfromtherafterspodcast',
+                    spotify: 'https://open.spotify.com/show/1npBZt0aj8DwBwDzcYFbkE'
                 }
             }
         }
