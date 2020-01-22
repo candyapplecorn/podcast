@@ -1,0 +1,15 @@
+version: '3'
+services:
+  podcast:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: npm run serve
+    container_name: podcast
+    environment:
+      - ENVIRONMENT=DEVELOPMENT
+    ports:
+      - 8080:8080
+    volumes:
+      - .:/usr/src/app
+      - /usr/src/app/node_modules
