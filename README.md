@@ -13,7 +13,7 @@ damn frameworks are convenient
 
 # deployment
 
-currently the site is hosted on github pages for free. it's fast and if i paid for ssl it'd be https too, also free. thanks github, how nice of you. currently hosted at at [hangingfromtherafters.us](www.hangingfromtherafters.us)
+currently the site is hosted on github pages for free. it's fast and if i paid for ssl it'd be https too, also free. thanks github, how nice of you. currently hosted at at [hangingfromtherafters.us](http://www.hangingfromtherafters.us)
 
 to deploy, simply run `npm run deploy`. this will run the `deploy` script in `package.json`. this runs a [script i stole from logrocket](https://blog.logrocket.com/build-deploy-vue-js-app-github-pages/), which essentially does the following:
 
@@ -27,6 +27,10 @@ here's the thing; after deploying, you have to go to the settings tab on the rep
 There you go, you did it.
 
 Hey future me - consider writing a travis.yml continuous integration script?
+
+### repo maintenance notes
+
+`/dist` can probably have all of its contents ignored and removed from source control now since the build script doesn't use `/master`. `/dist` could even be removed, and the build script could just create the `/dist` folder, probably. too tired 2 figure it out rn tho, that's a problem for future me
 
 ### austin
 
