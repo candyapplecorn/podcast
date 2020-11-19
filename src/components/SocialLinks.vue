@@ -39,7 +39,9 @@
                     instagram: 'https://www.instagram.com/hangingfromtherafterspodcast/',
                     facebook: 'https://www.facebook.com/hangingfromtherafterspodcast/',
                     soundcloud: 'https://soundcloud.com/hangingfromtherafterspodcast',
-                    spotify: 'https://open.spotify.com/show/1npBZt0aj8DwBwDzcYFbkE'
+                    spotify: 'https://open.spotify.com/show/1npBZt0aj8DwBwDzcYFbkE',
+                    twitch: 'https://www.twitch.tv/hangingfromtherafters',
+                    youtube: 'https://www.youtube.com/channel/UC0F_le0riOE67bPgwZOL3ow'
                 }
             }
         }
@@ -57,7 +59,7 @@
         -moz-osx-font-smoothing grayscale
 
     .padding
-        padding 30px 0px
+        padding 30px 0
 
     img
         width 100%
