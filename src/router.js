@@ -28,6 +28,7 @@ export default new Router({
       component: () => import(/* webpackChunkName: "about" */ './views/InterviewsSubmitted.vue'),
     }
   ],
+  // eslint-disable-next-line no-unused-vars
   scrollBehavior (to, from, savedPosition) {
       return { x: 0, y: 0 }
   }
