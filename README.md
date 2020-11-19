@@ -1,8 +1,8 @@
 # podcast
 
-so after being asked to maintain this i decided hey future-me it'd be helpful if now-me writes instructions to you so that you don't get stuck in the future because time is even more valuable in the future than it is now
+hey future-me it'd be helpful if now-me writes instructions to you so that you don't get stuck in the future because time is even more valuable in the future than it is now
 
-# developing locally
+## developing locally
 
 ```bash
 npm i;
@@ -11,7 +11,7 @@ npm run serve;
 
 damn frameworks are convenient
 
-# deployment
+## deployment
 
 currently the site is hosted on github pages for free. it's fast and if i paid for ssl it'd be https too, also free. thanks github, how nice of you. currently hosted at at [hangingfromtherafters.us](http://www.hangingfromtherafters.us)
 
@@ -27,6 +27,17 @@ here's the thing; after deploying, you have to go to the settings tab on the rep
 There you go, you did it.
 
 Hey future me - consider writing a travis.yml continuous integration script?
+
+## docker
+
+"installing tools locally is so 2010, get with the times scrub" - not me, except for literally me just now when i typed it
+
+```bash
+docker-compose build;
+docker-compose up;
+```
+
+i haven't taken the time to write docker commands to publish/deploy this, if that's even a thing. im sure it's a thing, almost everything's a thing. but being the scrub i am, for now i will stick with filthy locally installed tools. because i am a filthy filthy lazy programmer
 
 ### repo maintenance notes
 
