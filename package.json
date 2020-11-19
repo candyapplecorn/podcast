@@ -9,7 +9,8 @@
     "test:unit": "npx vue-cli-service test:unit",
     "heroku-postinstall": "npm run build",
     "postinstall": "npm run build",
-    "start": "node server.js"
+    "start": "node server.js",
+    "deploy": "node scripts/gh-pages-deploy.js"
   },
   "dependencies": {
     "core-js": "^3.6.4",
@@ -20,6 +21,7 @@
     "vuex": "^3.0.1"
   },
   "devDependencies": {
+    "execa": "latest",
     "@vue/cli-plugin-babel": "^3.1.1",
     "@vue/cli-plugin-eslint": "^3.1.1",
     "@vue/cli-plugin-pwa": "^3.1.1",
