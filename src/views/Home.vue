@@ -2,15 +2,13 @@
   <div id="home">
     <hero></hero>
 
+    <MerchandiseCarousel />
+
     <sound-cloud></sound-cloud>
 
     <social-links></social-links>
 
-    <span id="merch-link"><b><a target="_blank" href="https://www.patreon.com/hangingfromtherafters">Check out our merch!</a></b></span>
 
-    <a target="_blank" href="https://www.teepublic.com/user/hanging-from-the-rafters-podcast">
-      <img id=merchandise :src="merchSticker" alt="Buy our merch!">
-    </a>
 
     <a target="_blank" href="https://www.patreon.com/hangingfromtherafters">
       <img id=patreon :src="patreon" alt="Support us on Patreon!">
@@ -30,12 +28,14 @@
     import patreon from '@/assets/patreon.png';
     import austinoncouch from '@/assets/austinoncouch.jpg'
     import merchSticker from '@/assets/hanging_from_the_rafters_merch_sticker.png'
+    import MerchandiseCarousel from "@/components/MerchandiseCarousel";
 
     export default {
         components: {
             SoundCloud,
             SocialLinks,
-            Hero
+            Hero,
+            MerchandiseCarousel
         },
         data(){
             return {
