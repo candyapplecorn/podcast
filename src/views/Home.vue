@@ -6,6 +6,12 @@
 
     <social-links></social-links>
 
+    <span id="merch-link"><b><a target="_blank" href="https://www.patreon.com/hangingfromtherafters">Check out our merch!</a></b></span>
+
+    <a target="_blank" href="https://www.teepublic.com/user/hanging-from-the-rafters-podcast">
+      <img id=merchandise :src="merchSticker" alt="Buy our merch!">
+    </a>
+
     <a target="_blank" href="https://www.patreon.com/hangingfromtherafters">
       <img id=patreon :src="patreon" alt="Support us on Patreon!">
     </a>
@@ -23,6 +29,7 @@
     import alloncouch from '@/assets/alloncouch.jpg';
     import patreon from '@/assets/patreon.png';
     import austinoncouch from '@/assets/austinoncouch.jpg'
+    import merchSticker from '@/assets/hanging_from_the_rafters_merch_sticker.png'
 
     export default {
         components: {
@@ -34,7 +41,8 @@
             return {
                 alloncouch,
                 austinoncouch,
-                patreon
+                patreon,
+                merchSticker,
             }
         }
     };
@@ -48,6 +56,13 @@
   #patreon
     width 70%
     padding-bottom 40px
+
+  #merchandise
+    width 70%
+    padding-bottom 40px
+
+  #merch-link
+    font-size 1.25em
 
 
 </style>
