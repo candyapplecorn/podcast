@@ -2,13 +2,11 @@
   <div id="home">
     <hero></hero>
 
-    <MerchandiseCarousel />
-
     <sound-cloud></sound-cloud>
 
+    <MerchandiseCarousel />
+
     <social-links></social-links>
-
-
 
     <a target="_blank" href="https://www.patreon.com/hangingfromtherafters">
       <img id=patreon :src="patreon" alt="Support us on Patreon!">

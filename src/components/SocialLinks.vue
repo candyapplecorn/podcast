@@ -52,7 +52,7 @@
     @import url('https://fonts.googleapis.com/css?family=Metal+Mania')
 
     #interview
-        padding 90px 0 80px 0
+        padding 0 0 80px 0
         font-size 2em
         font-family 'Metal Mania', cursive
         -webkit-font-smoothing antialiased

@@ -94,6 +94,7 @@ export default {
 
 .carousel-container
   padding-bottom 30px
+  padding-top 30px
 
 #merchandise
   width 70%
