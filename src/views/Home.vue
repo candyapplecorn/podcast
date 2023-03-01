@@ -1,8 +1,17 @@
 <template>
   <div id="home">
     <hero></hero>
-
+    <h2>
+      Listen to the assholes ramble
+    </h2>
     <sound-cloud></sound-cloud>
+  <h2>
+    You sing and you sing good!
+  </h2>
+    <h3>
+      (on video)
+    </h3>
+    <youtube></youtube>
 
     <MerchandiseCarousel />
 
@@ -19,6 +28,7 @@
 
 <script>
     import SoundCloud from '@/components/SoundCloud';
+    import Youtube from '@/components/Youtube';
     import SocialLinks from '@/components/SocialLinks';
     import Hero from '@/components/hero';
 
@@ -31,6 +41,7 @@
     export default {
         components: {
             SoundCloud,
+            Youtube,
             SocialLinks,
             Hero,
             MerchandiseCarousel
