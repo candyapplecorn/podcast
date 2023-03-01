@@ -46,3 +46,7 @@ i haven't taken the time to write docker commands to publish/deploy this, if tha
 ### austin
 
 *lmk if u want me 2 set u up w/ this so u can make changes 2 the site urself e z p z ;) 30 mins on zoom or less*
+
+
+### changes to cname for github pages on namecheap
+https://www.namecheap.com/support/knowledgebase/article.aspx/9645/2208/how-do-i-link-my-domain-to-github-pages/
