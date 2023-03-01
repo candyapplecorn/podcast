@@ -10,3 +10,6 @@ docker-build:
 
 docker-up:
 	docker-compose up;
+
+#to run commands: open terminal up at the project root and enter "make 'command-name'" where 'command name'
+#is the name of the command(e.g. local-development)
