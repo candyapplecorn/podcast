@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "precache-manifest.2ce78a91251029ad38966dc08c3d5173.js"
+  "precache-manifest.c45883fff72203266ad08c9b666c1d5a.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "podcast"});
