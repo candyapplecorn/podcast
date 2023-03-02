@@ -29,16 +29,32 @@
         <th>Chris</th>
       </tr>
       <tr>
-        <td><img :src="austinPic1" alt="Austin"></td>
-        <td><img :src="chrisPic1" alt="Chris"></td>
+        <td><HftrPictures
+          image-data = "austinPic1.jpeg"
+          info-data = "Sergeant peppers lonely hearts club vice asshole"
+          >
+        </HftrPictures></td>
+        <td><HftrPictures
+            image-data = "chrisPic1.jpeg"
+            info-data = "Founder of the drunken assholes"
+        >
+        </HftrPictures></td>
       </tr>
       <tr>
         <th>Bryce</th>
         <th>Timmy</th>
       </tr>
       <tr>
-        <td><img :src="brycePic1" alt="Bryce"></td>
-        <td><img :src="timPic1" alt="Tim"></td>
+        <td><HftrPictures
+            image-data = "brycePic1.jpeg"
+            info-data = "Plays and writes music like an asshole"
+        >
+        </HftrPictures></td>
+        <td><HftrPictures
+            image-data = "timPic1.jpeg"
+            info-data = "We don't talk about tim"
+        >
+        </HftrPictures></td>
       </tr>
     </table>
     <h2>
@@ -46,12 +62,18 @@
     </h2>
     <table>
       <tr>
-        <td><img :src="alloncouch" alt="Bryce, Nikki, Anthony, Chris"></td>
-        <td><img :src="austinoncouch" alt="Austin On Couch"></td>
+        <td><HftrPictures
+            image-data = "alloncouch.jpeg"
+            info-data = "The early days"
+        >
+        </HftrPictures></td>
+        <td><HftrPictures
+            image-data = "austinoncouch.jpeg"
+            info-data = "Asshole on the couch"
+        >
+        </HftrPictures></td>
       </tr>
     </table>
-    <!--<img :src="alloncouch" alt="Bryce and Fabbio">
-    <img :src="austinoncouch" alt="Bryce and Fabbio"> -->
   </div>
 </template>
 
@@ -60,10 +82,11 @@
     import Youtube from '@/components/Youtube';
     import SocialLinks from '@/components/SocialLinks';
     import Hero from '@/components/hero';
+    import HftrPictures from '@/components/HftrPictures';
 
-    import alloncouch from '@/assets/alloncouch.jpg';
+    import alloncouch from '@/assets/alloncouch.jpeg';
     import patreon from '@/assets/patreon.png';
-    import austinoncouch from '@/assets/austinoncouch.jpg'
+    import austinoncouch from '@/assets/austinoncouch.jpeg'
     import austinPic1 from '@/assets/austinPic1.jpeg'
     import brycePic1 from '@/assets/brycePic1.jpeg'
     import chrisPic1 from '@/assets/chrisPic1.jpeg'
@@ -73,6 +96,7 @@
 
     export default {
         components: {
+          HftrPictures,
             SoundCloud,
             Youtube,
             SocialLinks,
@@ -98,7 +122,6 @@
 <style lang="stylus" scoped>
   img
     width 100%
-    height 100%
 
   #patreon
     width 70%
