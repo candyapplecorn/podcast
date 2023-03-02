@@ -28,9 +28,7 @@ export default {
 
 <style lang="stylus" scoped>
 img
-  display: block;
   width: 100%;
-  height: auto;
 
 
 
