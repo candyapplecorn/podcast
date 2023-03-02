@@ -52,7 +52,7 @@
         </HftrPictures></td>
         <td><HftrPictures
             image-data = "timPic1.jpeg"
-            info-data = "We don't talk about tim"
+            info-data = "We don't talk about timmy"
         >
         </HftrPictures></td>
       </tr>
@@ -64,7 +64,7 @@
       <tr>
         <td><HftrPictures
             image-data = "alloncouch.jpeg"
-            info-data = "The early days"
+            info-data = "The early days when everyone drank"
         >
         </HftrPictures></td>
         <td><HftrPictures
