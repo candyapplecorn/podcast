@@ -21,7 +21,7 @@
       <img id=patreon :src="patreon" alt="Support us on Patreon!">
     </a>
     <h2>
-      See the drunken assholes
+      Meet the drunken assholes
     </h2>
     <table>
       <tr>
@@ -31,7 +31,7 @@
       <tr>
         <td><HftrPictures
           image-data = "austinPic1.jpeg"
-          info-data = "Sergeant peppers lonely hearts club vice asshole"
+          info-data = "Wanted for death in seven systems"
           >
         </HftrPictures></td>
         <td><HftrPictures
@@ -64,7 +64,7 @@
       <tr>
         <td><HftrPictures
             image-data = "alloncouch.jpeg"
-            info-data = "The early days when everyone drank"
+            info-data = "The early days"
         >
         </HftrPictures></td>
         <td><HftrPictures
@@ -73,6 +73,19 @@
         >
         </HftrPictures></td>
       </tr>
+      <tr>
+        <td><HftrPictures
+            image-data = "originalTrioPic1.jpg"
+            info-data = "The original drunken assholes before we got timmy"
+        >
+        </HftrPictures></td>
+        <td><HftrPictures
+            image-data = "originalTrioPic3.jpg"
+            info-data = "original Trio Pic"
+        >
+        </HftrPictures></td>
+      </tr>
+
     </table>
   </div>
 </template>
@@ -93,6 +106,14 @@
     import timPic1 from '@/assets/timPic1.jpeg'
     import merchSticker from '@/assets/hanging_from_the_rafters_merch_sticker.png'
     import MerchandiseCarousel from "@/components/MerchandiseCarousel";
+    import axeMo from '@/assets/axeMo.jpg'
+    import moOutside from '@/assets/moOutside.jpg'
+    import snugglyMo from '@/assets/snugglyMo.jpg'
+    import originalTrioPic1 from '@/assets/originalTrioPic1.jpg'
+    import originalTriPic2 from '@/assets/originalTriPic2.jpg'
+    import originalTrioPic3 from '@/assets/originalTrioPic3.jpg'
+    import originalTrioPic4 from '@/assets/originalTrioPic4.jpg'
+    import originalTrioPic5 from '@/assets/originalTrioPic5.jpg'
 
     export default {
         components: {
@@ -111,8 +132,17 @@
                 brycePic1,
                 chrisPic1,
                 timPic1,
+                axeMo,
                 patreon,
                 merchSticker,
+                moOutside,
+                snugglyMo,
+                originalTrioPic1,
+                originalTriPic2,
+                originalTrioPic3,
+                originalTrioPic4,
+                originalTrioPic5
+
             }
         }
     };
